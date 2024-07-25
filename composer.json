@@ -1,0 +1,17 @@
+{
+  "name": "zhujinkui/ethtool",
+  "description": "ethtool tools",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1",
+    "kornrunner/keccak": "~1.0",
+    "simplito/elliptic-php": "~1.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "EthTool\\": "src/"
+    }
+  }
+}
